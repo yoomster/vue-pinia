@@ -11,7 +11,7 @@ export const useCounterStore = defineStore("counter", {
       this.counter++;
     },
     decrement() {
-      this.countert--;
+      this.counter--;
     },
     reset() {
       this.counter = 0;
